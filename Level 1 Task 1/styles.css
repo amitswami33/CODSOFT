@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    font-style: italic;
+}
+
+#about {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+#skills, #projects, #resume, #contact {
+    margin: 20px 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contact {
+    text-align: center;
+}
